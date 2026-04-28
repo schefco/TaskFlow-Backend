@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Rjxl+Uw8qk=",
+  "dgSpecHash": "A1tt0CqeW4w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Csche\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\Csche\\.nuget\\packages\\azure.communication.email\\1.1.0\\azure.communication.email.1.1.0.nupkg.sha512",

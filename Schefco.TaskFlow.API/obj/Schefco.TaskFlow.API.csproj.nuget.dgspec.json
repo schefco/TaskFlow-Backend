@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj": {}
+    "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj": {
+    "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",
+        "projectUniqueName": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",
         "projectName": "Schefco.TaskFlow.API",
-        "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",
+        "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",
         "packagesPath": "C:\\Users\\Csche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.API\\obj\\",
+        "outputPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,13 +31,14 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
-                "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj"
+              "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
+                "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj"
               },
-              "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj"
+              "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj"
               }
             }
           }
@@ -55,6 +56,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Scalar.AspNetCore": {
@@ -85,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
+    "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
         "projectName": "Schefco.TaskFlow.Application",
-        "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
+        "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
         "packagesPath": "C:\\Users\\Csche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\obj\\",
+        "outputPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,10 +114,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj"
+              "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
+                "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj"
               }
             }
           }
@@ -133,6 +136,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
@@ -164,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
+    "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj",
         "projectName": "Schefco.TaskFlow.Domain",
-        "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj",
+        "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj",
         "packagesPath": "C:\\Users\\Csche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,6 +195,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -208,6 +213,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -229,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj": {
+    "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
         "projectName": "Schefco.TaskFlow.Infrastructure",
-        "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Csche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,13 +262,14 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
-                "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj"
+              "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj": {
+                "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj"
               },
-              "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
-                "projectPath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj"
+              "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj": {
+                "projectPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj"
               }
             }
           }
@@ -280,6 +287,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Azure.Communication.Email": {

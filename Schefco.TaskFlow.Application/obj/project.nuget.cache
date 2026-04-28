@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LwZ+H8I9hO0=",
+  "dgSpecHash": "BYXrj6shaVk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Csche\\source\\repos\\Schefco.TaskFlow\\src\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
+  "projectFilePath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Csche\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\Csche\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",

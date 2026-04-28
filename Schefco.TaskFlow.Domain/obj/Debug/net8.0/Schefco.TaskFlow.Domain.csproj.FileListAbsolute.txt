@@ -9,3 +9,15 @@ C:\Users\Csche\source\repos\Schefco.TaskFlow\src\Schefco.TaskFlow.Domain\obj\Deb
 C:\Users\Csche\source\repos\Schefco.TaskFlow\src\Schefco.TaskFlow.Domain\obj\Debug\net8.0\refint\Schefco.TaskFlow.Domain.dll
 C:\Users\Csche\source\repos\Schefco.TaskFlow\src\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.pdb
 C:\Users\Csche\source\repos\Schefco.TaskFlow\src\Schefco.TaskFlow.Domain\obj\Debug\net8.0\ref\Schefco.TaskFlow.Domain.dll
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\bin\Debug\net8.0\Schefco.TaskFlow.Domain.deps.json
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\bin\Debug\net8.0\Schefco.TaskFlow.Domain.dll
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\bin\Debug\net8.0\Schefco.TaskFlow.Domain.pdb
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.AssemblyInfoInputs.cache
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.AssemblyInfo.cs
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.sourcelink.json
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.dll
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\refint\Schefco.TaskFlow.Domain.dll
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\Schefco.TaskFlow.Domain.pdb
+C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.Domain\obj\Debug\net8.0\ref\Schefco.TaskFlow.Domain.dll
