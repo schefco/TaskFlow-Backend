@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Schefco.TaskFlow.API.props" />
-</Project>

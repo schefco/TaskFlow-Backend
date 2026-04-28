@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "+1P209vGXY0WsLrixGJkYXYy/TGsIzOISHWv4EexNqE=",
-  "Source": "Schefco.TaskFlow.API",
-  "BasePath": "_content/Schefco.TaskFlow.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"G5jOhxzB7Sztbco4b0Jie+Ytw/SnOi6BWaHzSExIFaU=","Source":"Schefco.TaskFlow.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

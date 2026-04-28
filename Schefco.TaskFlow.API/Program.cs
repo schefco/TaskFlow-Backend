@@ -20,6 +20,7 @@ using FluentValidation;
 using System.IdentityModel.Tokens.Jwt;
 using Schefco.TaskFlow.Application.Settings;
 using Schefco.TaskFlow.API.MIddleware;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -76,7 +77,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddApiServices();
 
 // Program DBs
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPendingUserRepository, PendingUserRepository>();
@@ -137,11 +138,11 @@ builder.Services.AddAuthorizationBuilder().AddPolicy("Owner", policy => policy.R
 var app = builder.Build();
 
 // Apply EF Core migrations automatically on startup
-// using (var scope = app.Services.CreateScope())
-// {
-//    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-//    db.Database.Migrate();
-// }
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 var contentRoot = app.Environment.ContentRootPath;
 
