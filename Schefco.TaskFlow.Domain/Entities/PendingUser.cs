@@ -9,10 +9,10 @@ namespace Schefco.TaskFlow.Domain.Entities
         public Guid Id { get; set; }
 
         [MaxLength(200)]
-        public string Name { get; set; } = string.Empty;
+        public string? Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string? Company { get; set; } = string.Empty;
-        public string Reason { get; set; } = string.Empty;
+        public string? Reason { get; set; } = string.Empty;
         public DateTime RequestedAt { get; set; }
         public RegStatus Status { get; set; }
 

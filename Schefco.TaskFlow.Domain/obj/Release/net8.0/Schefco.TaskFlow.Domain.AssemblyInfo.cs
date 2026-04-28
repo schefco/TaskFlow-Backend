@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Schefco.TaskFlow.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da1b1f04521f5ab51f35cc021fce4fc021403a4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeb2f26ec809d9454c03e3bbce002f8511651ecb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Schefco.TaskFlow.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Schefco.TaskFlow.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
