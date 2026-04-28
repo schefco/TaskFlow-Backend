@@ -1,4 +1,4 @@
-# STEP 1 — Build your .NET app
+# Build .NET app
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
@@ -22,5 +22,5 @@ COPY --from=build /app/publish .
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
-# Start your API
+# Start API
 ENTRYPOINT ["dotnet", "Schefco.TaskFlow.API.dll"]

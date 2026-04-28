@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Schefco.TaskFlow.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cec0c0492f965853f709e3e6058a1830d78800f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54f88a7bbe54712ce3caa1de5ac0fa229f83767d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Schefco.TaskFlow.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Schefco.TaskFlow.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
