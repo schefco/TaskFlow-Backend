@@ -137,13 +137,6 @@ builder.Services.AddAuthorizationBuilder().AddPolicy("Owner", policy => policy.R
 
 var app = builder.Build();
 
-// Apply EF Core migrations automatically on startup
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
-}
-
 var contentRoot = app.Environment.ContentRootPath;
 
 app.UseRouting();
