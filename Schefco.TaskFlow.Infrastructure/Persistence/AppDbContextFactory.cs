@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.IO;
-using System.Runtime.InteropServices;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace Schefco.TaskFlow.Infrastructure.Persistence
 {
@@ -10,18 +7,19 @@ namespace Schefco.TaskFlow.Infrastructure.Persistence
     {
         public AppDbContext CreateDbContext(string[] args)
         {
-            var basePath = Directory.GetCurrentDirectory();
+            var conn = Environment.GetEnvironmentVariable("DATABASE_URL");
 
-            var config = new ConfigurationBuilder()
-                .SetBasePath(basePath)
-                .AddJsonFile("appsettings.json", optional: true)
-                .AddJsonFile(Path.Combine(basePath, "..", "Schefco.TaskFlow.API", "appsettings.json"), optional: true)
-                .Build();
+            Console.WriteLine(">>> FACTORY HIT");
+            Console.WriteLine($">>> DATABASE_URL = '{conn}'");
+
+            if (string.IsNullOrWhiteSpace(conn))
+                throw new InvalidOperationException("DATABASE_URL is not set. EF Tools require this environment variable.");
 
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseNpgsql(conn);
 
             return new AppDbContext(optionsBuilder.Options);
         }
     }
 }
+
