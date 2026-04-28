@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+	<UseAppHost>false</UseAppHost>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	 <PackageReference Include="Scalar.AspNetCore" Version="2.13.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Schefco.TaskFlow.Application\Schefco.TaskFlow.Application.csproj" />
+    <ProjectReference Include="..\Schefco.TaskFlow.Infrastructure\Schefco.TaskFlow.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
