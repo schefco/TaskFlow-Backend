@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\auth\\dtos\\pendinguserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\auth\\dtos\\pendinguserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48C3A419-D5EE-4EC4-8C3F-5871A46984FB}|Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.domain\\entities\\pendinguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48C3A419-D5EE-4EC4-8C3F-5871A46984FB}|Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj|solutionrelative:schefco.taskflow.domain\\entities\\pendinguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +98,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PendingUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Auth\\DTOs\\PendingUserDto.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Auth\\DTOs\\PendingUserDto.cs",
@@ -106,18 +106,17 @@
               "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Auth\\DTOs\\PendingUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:21:29.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:21:29.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
               "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
               "RelativeToolTip": "Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T14:20:36.405Z",
               "EditorCaption": ""
@@ -130,7 +129,7 @@
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
               "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T13:09:52.681Z",
               "EditorCaption": ""
@@ -185,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PendingUser.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\PendingUser.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Entities\\PendingUser.cs",
@@ -193,8 +192,7 @@
               "RelativeToolTip": "Schefco.TaskFlow.Domain\\Entities\\PendingUser.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T20:17:27.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T20:17:27.075Z"
             },
             {
               "$type": "Document",
@@ -206,8 +204,7 @@
               "RelativeToolTip": "Schefco.TaskFlow.API\\Program.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:12:19.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T16:12:19.079Z"
             },
             {
               "$type": "Document",

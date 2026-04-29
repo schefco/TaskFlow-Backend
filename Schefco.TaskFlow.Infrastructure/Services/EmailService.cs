@@ -43,7 +43,7 @@ namespace Schefco.TaskFlow.Infrastructure.Services
             // Build the email
             var payload = new
             {
-                from = "TaskFlow <onboarding@schefco.com",
+                from = "TaskFlow <onboarding@schefco.com>",
                 to = new[] { to },
                 subject,
                 html
