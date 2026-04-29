@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojectresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\projects\\commands\\createproject\\createprojectresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\endpoints\\projectendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\endpoints\\projectendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,11 +110,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:57:08.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CreateProjectResult.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectResult.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectResult.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectResult.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:55.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProjectHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectHandler.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectHandler.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectHandler.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:45.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateProjectCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectCommand.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectCommand.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectCommand.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Projects\\Commands\\CreateProject\\CreateProjectCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:33.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PendingUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Auth\\DTOs\\PendingUserDto.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Auth\\DTOs\\PendingUserDto.cs",
@@ -110,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AuthEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
@@ -118,25 +186,24 @@
               "RelativeToolTip": "Schefco.TaskFlow.API\\Endpoints\\AuthEndpoints.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAQwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:20:36.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:20:36.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
               "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Services\\EmailService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T13:09:52.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Identity\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Identity\\JwtTokenGenerator.cs",
@@ -148,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "IPasswordHashingService.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Common\\Interfaces\\IPasswordHashingService.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Common\\Interfaces\\IPasswordHashingService.cs",
@@ -160,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PasswordHashingService.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Services\\PasswordHashingService.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Services\\PasswordHashingService.cs",
@@ -172,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "RegStatus.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Enums\\RegStatus.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Enums\\RegStatus.cs",
@@ -184,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PendingUser.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\PendingUser.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Entities\\PendingUser.cs",
@@ -196,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Program.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Program.cs",
@@ -208,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "openapi.json",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\openapi.json",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\openapi.json",
@@ -220,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Common\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Common\\Interfaces\\IEmailService.cs",
@@ -232,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "PasswordGenerator.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Common\\Utilities\\PasswordGenerator.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Common\\Utilities\\PasswordGenerator.cs",
@@ -244,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\appsettings.json",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\appsettings.json",
@@ -256,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Entities\\AppUser.cs",
@@ -268,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
@@ -280,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Schefco.TaskFlow.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj",
@@ -292,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Properties\\launchSettings.json",
@@ -304,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\appsettings.Development.json",
@@ -316,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
@@ -328,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "dotnet-tools.json",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\dotnet-tools.json",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\dotnet-tools.json",
@@ -340,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Schefco.TaskFlow.API.csproj",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj",

@@ -9,6 +9,6 @@ namespace Schefco.TaskFlow.Application.Features.Projects.Commands.CreateProject
         DateTime? DueDate,
         ProjectStatus Status,
         ProjectPriority Priority,
-        Guid CreatedByUserId
+        Guid? CreatedByUserId
         ) : ICommand<CreateProjectResult>;
 }
