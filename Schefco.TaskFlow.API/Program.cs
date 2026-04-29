@@ -99,7 +99,7 @@ builder.Services.AddScoped<IPasswordHashingService, PasswordHashingService>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 
 // Provides email service
-builder.Services.AddScoped<IEmailService, AzureEmailService>();
+builder.Services.AddHttpClient<IEmailService, EmailService>();
 
 // Binds Owner email from configuration
 builder.Services.Configure<OwnerSettings>(builder.Configuration.GetSection("OwnerSettings"));
