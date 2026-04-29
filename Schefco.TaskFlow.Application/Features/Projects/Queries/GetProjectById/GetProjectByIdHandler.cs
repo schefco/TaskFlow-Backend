@@ -22,11 +22,8 @@ namespace Schefco.TaskFlow.Application.Features.Projects.Queries.GetProjectById
             // If not found. Error
             if (project is null)
                 throw new KeyNotFoundException($"Project with ID {request.Id} was not found");
-
-            // Check user Role
-            if (request.Role == "Owner" || project.CreatedByUserId == request.UserId)
-            {
-                return new ProjectDTO(
+            
+            return new ProjectDTO(
                 project.Id,
                 project.Name,
                 project.Description,
@@ -35,10 +32,9 @@ namespace Schefco.TaskFlow.Application.Features.Projects.Queries.GetProjectById
                 project.Priority,
                 project.CreatedAt,
                 project.UpdatedAt
-                );
-            }
+            );
 
-            throw new UnauthorizedAccessException("You cannot view another user's projects");
+            // throw new UnauthorizedAccessException("You cannot view another user's projects");
         }
     }
 }
