@@ -36,7 +36,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173").WithExposedHeaders("Authorization").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+            policy.WithOrigins("http://localhost:5173", "https://schefco.com").WithExposedHeaders("Authorization").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
         });
 });
 
