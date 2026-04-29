@@ -1,9 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Microsoft.EntityFrameworkCore;
 using Schefco.TaskFlow.Domain.Entities;
+using Schefco.TaskFlow.Infrastructure.Persistence.Configurations;
 
 namespace Schefco.TaskFlow.Infrastructure.Persistence
 {
-    public class AppDbContext : DbContext
+    public partial class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -12,6 +16,15 @@ namespace Schefco.TaskFlow.Infrastructure.Persistence
         public DbSet<PendingUser> PendingUsers { get; set; }
         public DbSet<TaskEntity> Tasks { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }
+
+        protected override void ConfigureConventions(ModelConfigurationBuilder builder)
+        {
+            builder.Properties<DateTime>()
+                .HaveConversion<UtcDateTimeConverter>();
+
+            builder.Properties<DateTime?>()
+                .HaveConversion<UtcNullableDateTimeConverter>();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

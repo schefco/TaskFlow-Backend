@@ -8,7 +8,6 @@
 
 	<ItemGroup>
 		<Folder Include="Files\" />
-		<Folder Include="Persistence\Configurations\" />
 		<Folder Include="Persistence\Migrations\" />
 	</ItemGroup>
 
@@ -19,7 +18,6 @@
 		<!-- EF Core runtime -->
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.4" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
 
 		<!-- EF Core design-time -->
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
