@@ -17,9 +17,7 @@ namespace Schefco.TaskFlow.Application.Features.Projects.Queries.GetProjects
         public async Task<List<ProjectDTO>> Handle(GetProjectQuery request, CancellationToken cancellationToken)
         {
             // RBAC Filtering
-            List<Project> projects = request.Role == "Owner"
-                ? await _repository.GetAllAsync()
-                : await _repository.GetByUserIdAsync(request.UserId);
+            List<Project> projects = await _repository.GetAllAsync();
 
             // Sorting
             projects = ProjectSorting.SortProjects(projects, request.SortBy, request.SortDirection);
