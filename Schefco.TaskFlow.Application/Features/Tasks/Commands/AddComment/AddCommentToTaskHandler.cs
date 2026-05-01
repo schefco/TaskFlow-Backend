@@ -29,6 +29,7 @@ namespace Schefco.TaskFlow.Application.Features.Tasks.Commands.AddComment
                 Id = Guid.NewGuid(),
                 TaskId = command.TaskId,
                 UserId = command.UserId,
+                User = command.User,
                 Content = command.Content,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow

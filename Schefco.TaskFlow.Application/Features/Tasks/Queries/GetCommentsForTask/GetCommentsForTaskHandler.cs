@@ -7,10 +7,12 @@ namespace Schefco.TaskFlow.Application.Features.Tasks.Queries.GetCommentsForTask
     public class GetCommentsForTaskHandler : IQueryHandler<GetCommentsForTaskQuery, List<CommentDto>>
     {
         private readonly ITaskRepository _taskRepo;
+        private readonly IUserRepository _users;
 
-        public GetCommentsForTaskHandler(ITaskRepository taskRepo)
+        public GetCommentsForTaskHandler(ITaskRepository taskRepo, IUserRepository users)
         {
             _taskRepo = taskRepo;
+            _users = users;
         }
 
         public async Task<List<CommentDto>> Handle(GetCommentsForTaskQuery command, CancellationToken cancellationToken)
@@ -24,6 +26,7 @@ namespace Schefco.TaskFlow.Application.Features.Tasks.Queries.GetCommentsForTask
                 Id = c.Id,
                 TaskId = c.TaskId,
                 UserId = c.UserId,
+                User = c.User,
                 Content = c.Content,
                 CreatedAt = c.CreatedAt,
                 UpdatedAt = c.UpdatedAt

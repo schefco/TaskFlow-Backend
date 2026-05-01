@@ -65,6 +65,11 @@ namespace Schefco.TaskFlow.Infrastructure.Persistence
                 .WithMany(t => t.Comments)
                 .HasForeignKey(c => c.TaskId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasOne(c => c.User)
+                .WithMany()
+                .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
             });
 
             // Configures default sorting order
