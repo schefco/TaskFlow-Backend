@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +31,16 @@
       "RelativeMoniker": "D:0:0:{48C3A419-D5EE-4EC4-8C3F-5871A46984FB}|Schefco.TaskFlow.Domain\\Schefco.TaskFlow.Domain.csproj|solutionrelative:schefco.taskflow.domain\\entities\\commententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\commands\\addcomment\\addcommenttotaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|solutionrelative:schefco.taskflow.application\\features\\tasks\\queries\\getcommentsfortask\\getcommentsfortaskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\endpoints\\taskendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\endpoints\\taskendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CB8286A-2B8E-44D1-9BBB-03AFECB2059C}|Schefco.TaskFlow.Infrastructure\\Schefco.TaskFlow.Infrastructure.csproj|solutionrelative:schefco.taskflow.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\tasks\\queries\\gettaskbyid\\gettaskbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\endpoints\\projectendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\endpoints\\projectendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C6ADFC-3C4D-4DCF-B44F-A4013F9852AE}|Schefco.TaskFlow.API\\Schefco.TaskFlow.API.csproj|solutionrelative:schefco.taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BC5BA1E-D5A3-4066-9CDE-D5F6B6C358AA}|Schefco.TaskFlow.Application\\Schefco.TaskFlow.Application.csproj|c:\\users\\csche\\desktop\\taskflow-backend\\schefco.taskflow.application\\features\\projects\\commands\\deleteproject\\deleteprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,89 +162,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddCommentToTaskHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:26:02.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CommentEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T21:44:31.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetCommentsForTaskHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:12:46.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentDto.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:12:18.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T19:12:11.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddCommentToTaskCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:25:56.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "GetCommentsForTaskQuery.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskQuery.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskQuery.cs",
@@ -257,7 +179,110 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetCommentsForTaskHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\GetCommentsForTaskHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:12:46.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCommentToTaskHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:26:02.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0IAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:47:21.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCommentToTaskCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:25:56.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetCommentsForTask\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T13:12:18.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Domain\\Entities\\CommentEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T21:44:31.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Program.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Program.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAiC0EOUgBwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:12:19.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:12:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TaskEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\TaskEndpoints.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Endpoints\\TaskEndpoints.cs",
@@ -265,25 +290,11 @@
               "RelativeToolTip": "Schefco.TaskFlow.API\\Endpoints\\TaskEndpoints.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:24:53.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T13:24:53.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwv0cAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:47:21.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GetTaskByIdHandler.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetTaskById\\GetTaskByIdHandler.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetTaskById\\GetTaskByIdHandler.cs",
@@ -291,12 +302,11 @@
               "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Queries\\GetTaskById\\GetTaskByIdHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T18:18:31.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T18:18:31.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GetProjectByIdHandler.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Projects\\Queries\\GetProjectById\\GetProjectByIdHandler.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Projects\\Queries\\GetProjectById\\GetProjectByIdHandler.cs",
@@ -381,18 +391,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Program.cs",
-              "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Program.cs",
-              "RelativeToolTip": "Schefco.TaskFlow.API\\Program.cs",
-              "ViewState": "AgIAAIgAAAAAiC0EOUgBwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:12:19.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ProjectEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
               "RelativeDocumentMoniker": "Schefco.TaskFlow.API\\Endpoints\\ProjectEndpoints.cs",
