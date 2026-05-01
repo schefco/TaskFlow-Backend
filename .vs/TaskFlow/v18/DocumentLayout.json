@@ -184,7 +184,7 @@
               "RelativeDocumentMoniker": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
               "ToolTip": "C:\\Users\\Csche\\Desktop\\TaskFlow-Backend\\Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
               "RelativeToolTip": "Schefco.TaskFlow.Application\\Features\\Tasks\\Commands\\AddComment\\AddCommentToTaskHandler.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-01T13:26:02.908Z",
               "EditorCaption": ""
@@ -199,8 +199,7 @@
               "RelativeToolTip": "Schefco.TaskFlow.Infrastructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAADwv0IAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:47:21.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T16:47:21.596Z"
             },
             {
               "$type": "Document",
@@ -224,8 +223,7 @@
               "RelativeToolTip": "Schefco.TaskFlow.API\\Endpoints\\TaskEndpoints.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAQwDgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T13:24:53.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T13:24:53.332Z"
             },
             {
               "$type": "Document",

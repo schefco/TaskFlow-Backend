@@ -3,16 +3,19 @@ using Schefco.TaskFlow.Application.Common.Interfaces;
 using Schefco.TaskFlow.Application.Common.Mediator;
 using Schefco.TaskFlow.Application.Features.Tasks.Queries.GetCommentsForTask;
 using Schefco.TaskFlow.Domain.Entities;
+using System.Reflection.Metadata;
 
 namespace Schefco.TaskFlow.Application.Features.Tasks.Commands.AddComment
 {
     public class AddCommentToTaskHandler : ICommandHandler<AddCommentToTaskCommand, CommentDto>
     {
         private readonly ITaskRepository _taskRepo;
+        private readonly IUserRepository _users;
 
-        public AddCommentToTaskHandler(ITaskRepository taskRepo)
+        public AddCommentToTaskHandler(ITaskRepository taskRepo, IUserRepository users)
         {
             _taskRepo = taskRepo;
+            _users = users;
         }
 
         public async Task<CommentDto> Handle(AddCommentToTaskCommand command, CancellationToken cancellationToken)
@@ -23,13 +26,18 @@ namespace Schefco.TaskFlow.Application.Features.Tasks.Commands.AddComment
             if (task is null)
                 throw new Exception("Task not found.");
 
+            // Get users name for ownership label on comment
+            var user = await _users.GetByIdAsync(command.UserId);
+            if (user == null)
+                throw new Exception("User not found.");
+
             // Create the new comment entity
             var comment = new CommentEntity
             {
                 Id = Guid.NewGuid(),
                 TaskId = command.TaskId,
                 UserId = command.UserId,
-                User = command.User,
+                User = user.Name,
                 Content = command.Content,
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow
