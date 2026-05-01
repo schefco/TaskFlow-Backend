@@ -122,7 +122,6 @@ C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\st
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\Schefco..D7812ECE.Up2Date
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\Schefco.TaskFlow.API.dll
 C:\Users\Csche\Desktop\TaskFlow-Backend\Schefco.TaskFlow.API\obj\Debug\net8.0\refint\Schefco.TaskFlow.API.dll

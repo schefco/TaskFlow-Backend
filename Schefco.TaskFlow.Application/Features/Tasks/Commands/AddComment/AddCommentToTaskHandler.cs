@@ -44,6 +44,7 @@ namespace Schefco.TaskFlow.Application.Features.Tasks.Commands.AddComment
                 Id = saved.Id,
                 TaskId = saved.TaskId,
                 UserId = saved.UserId,
+                User = saved.User,
                 Content = saved.Content,
                 CreatedAt = saved.CreatedAt,
                 UpdatedAt = saved.UpdatedAt
