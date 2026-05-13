@@ -28,25 +28,15 @@
           }
         },
         "responses": {
-          "200": {
-            "description": "User registered successfully",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AuthResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid registration request"
-          }
+          "200": { "description": "User registered successfully" },
+          "400": { "description": "Invalid registration request" }
         }
       }
     },
+
     "/auth/login": {
       "post": {
-        "summary": "Authenticate user and return JWT",
+        "summary": "Authenticate user and set HttpOnly cookie",
         "operationId": "loginUser",
         "requestBody": {
           "required": true,
@@ -60,46 +50,54 @@
         },
         "responses": {
           "200": {
-            "description": "Login successful",
+            "description": "Login successful. AuthToken cookie is set.",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AuthResponse"
+                  "$ref": "#/components/schemas/LoginResponse"
                 }
               }
             }
           },
-          "401": {
-            "description": "Invalid credentials"
-          }
+          "401": { "description": "Invalid credentials" }
         }
       }
     },
-    "/auth/refresh": {
-      "post": {
-        "summary": "Refresh JWT token",
-        "operationId": "refreshToken",
+
+    "/auth/me": {
+      "get": {
+        "summary": "Get the authenticated user's identity from the HttpOnly cookie",
+        "operationId": "getCurrentUser",
         "responses": {
           "200": {
-            "description": "Token refreshed",
+            "description": "Authenticated user info",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AuthResponse"
+                  "$ref": "#/components/schemas/UserIdentity"
                 }
               }
             }
           },
-          "401": {
-            "description": "Invalid or expired token"
-          }
+          "401": { "description": "User is not authenticated" }
         }
       }
     },
+
+    "/auth/logout": {
+      "post": {
+        "summary": "Clear the authentication cookie",
+        "operationId": "logoutUser",
+        "responses": {
+          "200": { "description": "Logout successful. Cookie cleared." }
+        }
+      }
+    },
+
     "/auth/reset-password": {
       "post": {
-        "tags": [ "Auth" ],
         "summary": "Reset a user's password and return a new temporary password",
+        "operationId": "resetPassword",
         "requestBody": {
           "required": true,
           "content": {
@@ -124,61 +122,7 @@
         }
       }
     },
-    "/auth/users/{id}": {
-      "get": {
-        "tags": [ "Auth" ],
-        "summary": "Get a single approved user by ID",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "User found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserDto"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "User not found"
-          }
-        }
-      },
-      "delete": {
-        "tags": [ "Auth" ],
-        "summary": "Delete a user by ID",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "User deleted successfully"
-          },
-          "404": {
-            "description": "User not found"
-          }
-        }
-      }
-    },
+
     "/projects": {
       "get": {
         "summary": "Get all projects for the authenticated user",
@@ -197,12 +141,7 @@
               }
             }
           }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+        }
       },
       "post": {
         "summary": "Create a new project",
@@ -228,14 +167,10 @@
               }
             }
           }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+        }
       }
     },
+
     "/projects/{projectId}": {
       "get": {
         "summary": "Get a project by ID",
@@ -262,16 +197,10 @@
               }
             }
           },
-          "404": {
-            "description": "Project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Project not found" }
+        }
       },
+
       "put": {
         "summary": "Update a project",
         "operationId": "updateProject",
@@ -307,16 +236,10 @@
               }
             }
           },
-          "404": {
-            "description": "Project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Project not found" }
+        }
       },
+
       "delete": {
         "summary": "Delete a project",
         "operationId": "deleteProject",
@@ -332,20 +255,12 @@
           }
         ],
         "responses": {
-          "204": {
-            "description": "Project deleted"
-          },
-          "404": {
-            "description": "Project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "204": { "description": "Project deleted" },
+          "404": { "description": "Project not found" }
+        }
       }
     },
+
     "/projects/{projectId}/tasks": {
       "get": {
         "summary": "Get all tasks for a project",
@@ -375,16 +290,10 @@
               }
             }
           },
-          "404": {
-            "description": "Project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Project not found" }
+        }
       },
+
       "post": {
         "summary": "Create a new task in a project",
         "operationId": "createTask",
@@ -420,17 +329,11 @@
               }
             }
           },
-          "404": {
-            "description": "Project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Project not found" }
+        }
       }
     },
+
     "/projects/{projectId}/tasks/{taskId}": {
       "get": {
         "summary": "Get a task by ID",
@@ -466,16 +369,10 @@
               }
             }
           },
-          "404": {
-            "description": "Task or project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Task or project not found" }
+        }
       },
+
       "put": {
         "summary": "Update a task",
         "operationId": "updateTask",
@@ -520,16 +417,10 @@
               }
             }
           },
-          "404": {
-            "description": "Task or project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "404": { "description": "Task or project not found" }
+        }
       },
+
       "delete": {
         "summary": "Delete a task",
         "operationId": "deleteTask",
@@ -554,28 +445,18 @@
           }
         ],
         "responses": {
-          "204": {
-            "description": "Task deleted"
-          },
-          "404": {
-            "description": "Task or project not found"
-          }
-        },
-        "security": [
-          {
-            "BearerAuth": []
-          }
-        ]
+          "204": { "description": "Task deleted" },
+          "404": { "description": "Task or project not found" }
+        }
       }
     },
+
     "/health": {
       "get": {
         "summary": "Health check endpoint",
         "operationId": "healthCheck",
         "responses": {
-          "200": {
-            "description": "API is running"
-          }
+          "200": { "description": "API is running" }
         }
       }
     }
@@ -593,6 +474,7 @@
         },
         "required": [ "email", "password" ]
       },
+
       "LoginRequest": {
         "type": "object",
         "properties": {
@@ -604,17 +486,28 @@
         },
         "required": [ "email", "password" ]
       },
-      "AuthResponse": {
+
+      "LoginResponse": {
         "type": "object",
         "properties": {
-          "token": { "type": "string" },
-          "expiresAt": {
-            "type": "string",
-            "format": "date-time"
-          }
+          "requiresPasswordReset": { "type": "boolean" }
         },
-        "required": [ "token", "expiresAt" ]
+        "required": [ "requiresPasswordReset" ]
       },
+
+      "UserIdentity": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "email": { "type": "string" },
+          "role": { "type": "string" }
+        },
+        "required": [ "userId", "email", "role" ]
+      },
+
       "ResetUserPasswordCommand": {
         "type": "object",
         "properties": {
@@ -625,26 +518,14 @@
         },
         "required": [ "userId" ]
       },
+
       "ResetUserPasswordResponse": {
         "type": "object",
         "properties": {
-          "tempPassword": {
-            "type": "string"
-          }
+          "tempPassword": { "type": "string" }
         }
       },
-      "UserDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "name": { "type": "string" },
-          "email": { "type": "string" },
-          "company": { "type": "string" }
-        }
-      },
+
       "ProjectCreateRequest": {
         "type": "object",
         "properties": {
@@ -653,6 +534,7 @@
         },
         "required": [ "name" ]
       },
+
       "ProjectUpdateRequest": {
         "type": "object",
         "properties": {
@@ -660,6 +542,7 @@
           "description": { "type": "string" }
         }
       },
+
       "ProjectResponse": {
         "type": "object",
         "properties": {
@@ -680,6 +563,7 @@
         },
         "required": [ "id", "name", "createdAt", "updatedAt" ]
       },
+
       "TaskCreateRequest": {
         "type": "object",
         "properties": {
@@ -689,6 +573,7 @@
         },
         "required": [ "title" ]
       },
+
       "TaskUpdateRequest": {
         "type": "object",
         "properties": {
@@ -697,6 +582,7 @@
           "status": { "$ref": "#/components/schemas/TaskStatus" }
         }
       },
+
       "TaskResponse": {
         "type": "object",
         "properties": {
@@ -722,22 +608,12 @@
         },
         "required": [ "id", "projectId", "title", "status", "createdAt", "updatedAt" ]
       },
+
       "TaskStatus": {
         "type": "string",
         "enum": [ "NotStarted", "InProgress", "Completed" ]
       }
     },
-    "securitySchemes": {
-      "BearerAuth": {
-        "type": "http",
-        "scheme": "bearer",
-        "bearerFormat": "JWT"
-      }
-    }
-  },
-  "security": [
-    {
-      "BearerAuth": []
-    }
-  ]
+    "securitySchemes": {}
+  }
 }

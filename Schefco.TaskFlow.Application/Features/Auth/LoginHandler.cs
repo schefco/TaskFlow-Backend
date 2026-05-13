@@ -38,7 +38,6 @@ namespace Schefco.TaskFlow.Application.Features.Auth
 
                 return new LoginResponseDto
                 {
-                    Token = tempToken,
                     RequiresPasswordReset = true
                 };
             }
@@ -56,7 +55,6 @@ namespace Schefco.TaskFlow.Application.Features.Auth
             // Return login response
             return new LoginResponseDto
             {
-                Token = fullToken,
                 RequiresPasswordReset = false
             };
         }

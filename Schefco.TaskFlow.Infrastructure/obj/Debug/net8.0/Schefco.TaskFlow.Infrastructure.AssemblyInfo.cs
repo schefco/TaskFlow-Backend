@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Schefco.TaskFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b80b366d59b68a41a07c8b2a4543d192c7c4ddf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da839b6c22f079d418ee4ff79be703e3593ab85c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Schefco.TaskFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Schefco.TaskFlow.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

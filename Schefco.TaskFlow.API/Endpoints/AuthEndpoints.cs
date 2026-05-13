@@ -70,6 +70,39 @@ namespace Schefco.TaskFlow.API.Endpoints
             }).RequireAuthorization("Owner");
 
             //
+            // GET /auth/me
+            // Return authoized user
+            //
+            group.MapGet("/me", async (ICurrentTokenService tokenService, IUserRepository users) =>
+            {
+                // Get token
+                var token = tokenService.Token;
+
+                if (string.IsNullOrEmpty(token))
+                    return Results.Unauthorized();
+
+                // Decode the token
+                var userId = tokenService.GetCurrentUserId();
+
+                if (userId == Guid.Empty)
+                    return Results.Unauthorized();
+
+                // Get the user
+                var user = await users.GetByIdAsync(userId);
+
+                if (user == null)
+                    return Results.Unauthorized();
+
+                // send back user info
+                return Results.Ok(new
+                {
+                    userId = user.Id,
+                    email = user.Email,
+                    role = user.Role
+                });
+            });
+
+            //
             // POST /auth/approve Approve pending users
             //
             group.MapPost("/approve", async (ApprovePendingUserCommand command, IMediator mediator) =>
@@ -82,12 +115,18 @@ namespace Schefco.TaskFlow.API.Endpoints
             // Login
             // POST /auth/login
             //
-            group.MapPost("/login", async (LoginCommand command, HttpContext http, IMediator mediator) =>
+            group.MapPost("/login", async (LoginCommand command, HttpContext http, IMediator mediator, IJwtTokenGenerator jwt, IUserRepository users, IPasswordHashingService hasher) =>
             {
                 var result = await mediator.Send(command);
 
-                // Extract token from result
-                var token = result.Token;
+                // look up the user
+                var user = await users.GetByEmailAsync(command.Email);
+
+                if (user == null)
+                    return Results.Unauthorized();
+
+                // Generate the token
+                string token = result.RequiresPasswordReset ? jwt.GenerateTempToken(user) : jwt.GenerateToken(user);
 
                 // Write cookie
                 http.Response.Cookies.Append("AuthToken", token, new CookieOptions
@@ -100,7 +139,6 @@ namespace Schefco.TaskFlow.API.Endpoints
 
                 // return only the password reset flag
                 return Results.Ok(new { 
-                    token = result.Token,
                     requiresPasswordReset = result.RequiresPasswordReset 
                 });
             });
@@ -114,25 +152,51 @@ namespace Schefco.TaskFlow.API.Endpoints
                 HttpContext http,
                 IMediator mediator) =>
             {
-                // Extract token from from Header
-                var header = http.Request.Headers["Authorization"].ToString();
-                var token = header.Replace("Bearer ", "");
+                // extract userId from the token
+                var userId = tokenService.GetCurrentUserId();
 
-                // Add to show the current token
-                tokenService.Token = token;
+                if (userId == Guid.Empty)
+                    return Results.Unauthorized();
 
-                // Send to reset temp password
-                return await mediator.Send(command);
+                // Execute the password reset
+                var result = await mediator.Send(command);
+
+                return Results.Ok(result);
             });
 
             //
             // POST /reset-password
             //
-            group.MapPost("/reset-password", async (ResetUserPasswordCommand command, IMediator mediator) =>
+            group.MapPost("/reset-password", async (ResetUserPasswordCommand command, ICurrentTokenService tokenService, IMediator mediator) =>
             {
-                var tempPassword = await mediator.Send(command);
-                return Results.Ok(new { tempPassword });
+                // Get userId from cookie
+                var userId = tokenService.GetCurrentUserId();
+
+                if (userId == Guid.Empty)
+                    return Results.Unauthorized();
+
+                // Execute the password reset
+                var result = await mediator.Send(command);
+
+                return Results.Ok(result);
             }).RequireAuthorization("Owner");
+
+            //
+            // POST /auth/logout
+            // Clears the HttpOnly cookie
+            //
+            group.MapPost("/logout", (HttpContext http) =>
+            {
+                http.Response.Cookies.Append("AuthToken", "", new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.None,
+                    Expires = DateTime.UtcNow.AddDays(-1)
+                });
+
+                return Results.Ok();
+            });
 
             //
             // DELETE /users/{id}

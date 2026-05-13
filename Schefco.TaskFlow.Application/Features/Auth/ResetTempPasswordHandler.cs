@@ -60,7 +60,6 @@ namespace Schefco.TaskFlow.Application.Features.Auth
             // Return Response
             return new LoginResponseDto
             {
-                Token = fullToken,
                 RequiresPasswordReset = false
             };
         }
